@@ -9,7 +9,6 @@
     box-shadow: 0px 0px 24px 0px rgba(239,110,71,0.62);
     animation: fadeIn .5s ease-in both;
     z-index: 0;
-    border: transparent;
     bottom: 75px;
 }
 

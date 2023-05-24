@@ -38,9 +38,9 @@ function Register() {
         <div>
             <h2 className="form-title">First time users register here:</h2>
         <form className="register-form" onSubmit={register}>
-            <input type="email" value={email} onChange={e => setEmail(e.target.value)} required placeholder="Email" />
-            <input type="password" value={password} onChange={e => setPassword(e.target.value)} required placeholder="Password" />
-            <button type="submit">Register</button>
+            <input type="email" id= "email" value={email} onChange={e => setEmail(e.target.value)} required placeholder="Email" />
+            <input type="password" id = "pass"value={password} onChange={e => setPassword(e.target.value)} required placeholder="Password" />
+            <button type="submit" id = "reg">Register</button>
         </form>
         {error && <p>{error}</p>}
         </div>
